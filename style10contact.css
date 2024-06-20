@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5%;
+    height: 15vh;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+   
+}
+
+nav img {
+    width: 150px;
+  }
+  
+  
+  
+  
+  nav ul li {
+   
+    margin-right: 50px;
+    font-weight: 600;
+  }
+  .three{
+    font-weight: 700;
+    color: #20bc7e;
+
+  }
+ main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+ }
+ form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px; 
+    padding: 20px 0px;
+    gap: 15px;
+    border-radius: 10px;
+    
+    box-shadow: 0 0 10px black;
+
+   
+}
+form h1{
+    text-align: center;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.div div label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.div div input{
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+.div div textarea{
+    resize: none;
+    height: 100px;
+    border: transparent;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+form button{
+    border: transparent;
+    border-radius: 10px;
+    background: #20BC7E;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    /* margin-top: 10px; */
+
+}
+.diva{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
